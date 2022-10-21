@@ -1,5 +1,5 @@
 .AppContainer{
-    @apply relative w-full h-screen bg-[#1E1E1E] flex flex-row flex-col
+    @apply relative w-full h-screen bg-[#1E1E1E] flex flex-col justify-center items-center
     lg:relative lg:w-full lg:h-screen lg:bg-[#1E1E1E] lg:flex lg:flex-row
 
 }
