@@ -1,0 +1,15 @@
+.InputBox{
+    @apply  flex justify-center items-center flex-col flex-wrap space-y-4 w-[100%] mt-3
+    xl:space-y-4 xl:mt-44 xl:w-[90%]
+    lg:space-y-4 lg:mt-44 lg:w-[90%]
+}
+.PassRecovery-Text{
+    @apply text-white cursor-pointer text-xs mb-2
+    xl:text-xs xl:mb-4
+    lg:text-xs lg:mb-4
+}
+span{
+    @apply flex justify-end items-end w-[89%]
+    xl:w-[89%]
+    lg:w-[89%]
+}

@@ -1,0 +1,65 @@
+.OptionsContainer{
+    @apply flex flex-col items-center
+    xl:w-[90%] xl:space-x-4 xl:mt-10 xl:rounded-lg xl:h-[10em]
+    lg:w-[90%] lg:space-x-4 lg:mt-10 lg:rounded-lg lg:h-[10em]
+}
+.OptionText{
+    @apply text-white text-xs mt-[8px]
+    xl:mt-4
+    lg:mt-4
+}
+
+hr{
+    @apply w-[80%] h-px border-0 bg-gray-400 hidden
+     lg:w-[85%] lg:border-0 lg:bg-gray-400 lg:block;
+}
+
+.OptionsLogin{
+    @apply flex flex-row justify-center w-[90%] space-x-3 mt-4
+    xl:w-[90%] xl:space-x-3 xl:mt-14
+    lg:w-[90%] lg:space-x-3 lg:mt-14
+}
+
+.IconDiv{
+    @apply rounded-lg flex justify-center items-center cursor-pointer w-16 h-10
+    xl:w-16 xl:h-10
+    lg:w-16 lg:h-10
+}
+
+.IconGoogle{
+    @apply  text-white w-7 h-7
+    xl:w-7 xl:h-7
+    lg:w-7 lg:h-7
+}
+
+.IconFace{
+    @apply text-blue-500 w-7 h-7
+    xl:w-7 xl:h-7
+    lg:w-7 lg:h-7
+}
+
+.IconApple{
+    @apply w-7 h-7 text-white w-7 h-7
+     lg:w-7 lg:h-7
+}
+
+{/* efeito icon*/}
+.IconApple:hover{
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
+}
+
+.IconFace:hover{
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
+}
+
+.IconGoogle:hover{
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
+}
+
+.IconDiv:hover{
+    @apply bg-white
+}
+
+.IconDiv:hover .IconApple{
+    @apply text-black
+}

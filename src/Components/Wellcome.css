@@ -1,0 +1,43 @@
+.WellcomeContainer{
+    @apply w-full flex flex-row justify-center items-center
+    lg:w-full lg:flex-row
+}
+
+.WellcomeContent{
+    @apply w-full h-3/4 flex flex-col items-center justify-center
+    lg:w-full lg:h-3/4 lg:flex lg:flex-row lg:justify-end lg:items-center
+    2xl:w-full 2xl:h-3/4 2xl:flex 2xl:flex-row 2xl:justify-end 2xl:items-center
+}
+
+.WomanImg{
+    @apply w-[18em] ml-14
+    lg:w-[28em]
+    2xl:w-[32em]
+
+}
+
+.DivImage{
+    @apply w-full flex justify-center items-center mt-10
+    lg:w-2/3
+    xl:w-1/2
+
+}
+
+.TextPrimary{
+    @apply text-2xl font-bold text-white text-center mt-5 text-center
+    xl:text-6xl
+    lg:text-4xl lg:text-start
+}
+
+.SecondaryText{
+    @apply text-base text-white text-start mt-16 hidden
+    lg:text-base lg:text-white lg:text-start lg:mt-16 lg:block
+    xl:text-lg xl:text-white xl:text-start xl:mt-16 xl:block
+
+}
+.WellcomeText{
+    @apply flex flex-col w-full
+    lg:ml-[20%] lg:w-1/4
+    xl:w-1/2 xl:ml-[20%]
+
+}
